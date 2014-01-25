@@ -2,5 +2,5 @@ DEVICE=atmega328
 compile:
 	ino build -m $(DEVICE)
 
-upload:
+upload: compile
 	ino upload -m $(DEVICE)

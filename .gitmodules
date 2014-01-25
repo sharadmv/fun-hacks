@@ -1,0 +1,3 @@
+[submodule "remotejs"]
+	path = remotejs
+	url = git@github.com:sharadmv/remotejs.git
